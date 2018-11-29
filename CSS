@@ -1,0 +1,38 @@
+#title {
+	font-size: 200%;
+	text-align: center;
+}
+body {
+	background: linear-gradient(100deg, #99ccff, #ccccff);
+	text-align: center;
+}
+#description {
+	text-align: center;
+}
+#survey-form {
+	padding: 50px;
+	border: 20px solid black;
+	background: white;
+	border-radius: 20px;
+	display: inline-block;
+}
+input:invalid {
+	/* user story 4 */
+	border: 2px solid red;
+}
+input:valid {
+	/* user story 4 */
+	border: 1px solid black;
+}
+.radioLeft {
+  text-align: left;
+}
+.checkboxLeft{
+  text-align: left;
+}
+textarea {
+	background-color: #f0f5f5;
+}
+hr {
+	border: 5px solid black;
+}
