@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+	</script>
+	<title></title>
+</head>
+<body>
+	<header>
+		<link href="mystyle.css" rel="stylesheet" type="text/css">
+	</header>
+	<h1 id="title">Survey Form</h1>
+	<hr width="auto">
+	<p id="description">Let us know how we can improve freeCodeCamp</p>
+	<form id="survey-form" name="survey-form">
+    <div>
+		  <label id="name-label">* Name</label> <!-- user story 11 -->  
+      <input id="name" maxlength="100" placeholder="First Last" required="" type="text">
+		</div><br>
+		<br>
+    <div>
+		  <label id="email-label">* email</label> <!-- user story 11 -->
+			<input id="email" maxlength="50" placeholder="email@example.com" required="" type="email"> <!-- user story 6 -->
+		</><br>
+		<br>
+			<div class="container"> <!-- user story 7 -->
+       <label id="number-label">* Age</label> <!-- user story 11 -->
+			 <input id="number" max="110" min="1" placeholder="Select age" required="" type="number"> <!-- user story 9 -->
+		</div><br>
+		<br>
+		<div>
+			<p>Which Option Best Describes Your Current Role</p><select id="dropdown">
+				<!-- user story 12 -->
+				<option value="student">
+					Student
+				</option>
+				<option value="job">
+					Full Time Job
+				</option>
+				<option value="learner">
+					Full Time Learner
+				</option>
+				<option value="preferNo">
+					Prefer Not to Say
+				</option>
+				<option value="other">
+					Other
+				</option>
+			</select>
+		</div><br>
+		<br>
+		<p>How likely are you to recommend Free Code Camp?</p>
+		<div class="radioLeft">
+			<input checked id="definately" name="recommend" type="radio"  value="definately"> <label for="definately">Definitely</label>
+		</div>
+		<div class="radioLeft">
+			<input checked id="maybe" name="recommend" type="radio" value="maybe"> <label for="maybe">Maybe</label>
+		</div>
+		<div class="radioLeft">
+			<input checked id="notSure" name="recommend" type="radio" value="notSure"> <label for="notSure">Not Sure</label>
+		</div><br>
+		<br>
+		<p>Things that Should be Improved in the Future</p>
+		<div class="checkboxLeft">
+			<input id="frontEndProjects" name="improvements" type="checkbox" value="frontEndProjects"> <label for="frontEndProjects">Front-end Projects</label>
+		</div>
+		<div class="checkboxLeft">
+			<input id="backEndProjects" name="improvements" type="checkbox" value="backEndProjects"> <label for="backEndProjects">Back-end Projects</label>
+		</div>
+		<div class="checkboxLeft">
+			<input id="dataVisualization" name="improvements" type="checkbox" value="dataVisualization"> <label for="dataVisualization">Data Visualization</label>
+		</div>
+    <div class="checkboxLeft">
+      <input id="challenges" name="improvements" type="checkbox" value="challenges"> <label for="challenges">Challenges</label> 
+    </div>
+    <div class="checkboxLeft">
+      <input id="openSourceCommunity" name="improvements" type="checkbox" value="openSourceCommunity"> <label for="openSourceCommunity">Open Source Community</label>
+    </div>
+    <div class="checkboxLeft">
+      <input id="gitterHelpRooms" name="improvements" type="checkbox" value="gitterHelpRooms"> <label for="glitterHelpRooms">Gitter Help Rooms</label>
+    </div>
+    <div class="checkboxLeft">
+      <input id="videos" name="improvements" type="checkbox" value="videos"> <label for="videos">Videos</label>
+    </div>
+    <div class="checkboxLeft">
+      <input id="cityMeetups" name="improvements" type="checkbox" value="cityMeetups"> <label for="cityMeetups">City Meetups</labels>
+    </div>
+    <div class="checkboxLeft">
+      <input id="wiki" name="improvements" type="checkbox" value="wiki"> <label for="wiki">Wiki</label>
+    </div>
+    <div class="checkboxLeft">
+      <input id="forum" name="improvements" type="checkbox" value="forum"> <label for="forum">Forum</label>
+    </div>
+    <div class="checkboxLeft">
+      <input id="additionalCourses" name="improvements" type="checkbox" value="additionalCourses"> <label for="additionalCourses">Additional Courses</label>
+    </div>
+    <br>
+		<br>
+		<textarea id="comments" name="comments">Enter your comments here</textarea><br>
+		<br>
+		<button id="submit" type="submit">Submit</button>
+	</form>
+</body>
+  <footer>Coded by Kellie Truesdell</footer>
+</html>
