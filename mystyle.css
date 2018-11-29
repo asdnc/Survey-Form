@@ -25,10 +25,10 @@ input:valid {
 	border: 1px solid black;
 }
 .radioLeft {
-  text-align: left;
+	text-align: left;
 }
-.checkboxLeft{
-  text-align: left;
+.checkboxLeft {
+	text-align: left;
 }
 textarea {
 	background-color: #f0f5f5;
